@@ -37,11 +37,13 @@ namespace Zadanie2
                     MessageBox.Show("Вы успешно подключились.");
                 }
             }
-            private void button1_Click(object sender, EventArgs e)
-            {
-                SYBD sybd = new SYBD();
-                sybd.Podklychenie();
-            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+SYBD sybd = new SYBD();
+            sybd.Podklychenie();
         }
     }
+
 }

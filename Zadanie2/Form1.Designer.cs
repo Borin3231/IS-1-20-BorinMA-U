@@ -1,4 +1,6 @@
-﻿namespace Zadanie2
+﻿using System;
+
+namespace Zadanie2
 {
     partial class Form1
     {
@@ -33,9 +35,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 143);
+            this.button1.Location = new System.Drawing.Point(38, 140);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 82);
+            this.button1.Size = new System.Drawing.Size(335, 113);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -56,6 +58,10 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private readonly EventHandler Form1_Load;
+
+       
+        public EventHandler Form1_Load_1 { get; private set; }
     }
 }
 
