@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Zadanie1;
 using Zadanie2;
 using Zadanie3;
+using Zadanie4;
 
 namespace IS_1_20_BorinMA_U
 {
@@ -47,7 +48,10 @@ namespace IS_1_20_BorinMA_U
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Zadanie4.Form1 a4 = new Zadanie4.Form1();
+            this.Hide();
+            a4.ShowDialog();
+            this.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
